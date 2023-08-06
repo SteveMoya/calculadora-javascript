@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #555;
+    font-family: 'Roboto', sans-serif;
+}
+
+  h1 {
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 10px;
+    color: whitesmoke;
+  }
+  
+  .calculadora {
+    width: 50vh;
+    margin: 0 auto;
+    background-color: #c2c2c2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #pantalla {
+    width: 41vh;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  input[type="text"] {
+    font-weight: bolder;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  input[type="button"] {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  input:active {
+    font-size: 1.1rem;
+    }
+
+  input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  
+    input[type="button"]:nth-child(5n+1) {
+       background-color: #6e91c8;
+       color: whitesmoke;
+    }
+
+  input[type="button"]:nth-last-child(2) {
+    
+    background-color: #d62828;
+    color: whitesmoke;
+  }
+  input[type="button"]:nth-last-child(2):hover {
+    background-color: #c32d2d;
+  }
+
+  input[type="button"]:nth-last-child(4) {
+    background-color: green;
+    color: whitesmoke;
+  }
+  input[type="button"]:nth-last-child(4):hover {
+    background-color: #2d8c2d;
+    
+  }
